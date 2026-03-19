@@ -20,17 +20,6 @@ Odkładają przez strach przed destabilizacją działającej infrastruktury IT.
 
 ---
 
-## Hook i narracja otwierająca
-
-**Hook:** "Sprzedaż B2B online — bez wymiany ERP, bez ingerencji w back-office"
-
-**Dlaczego to działa:**
-- Każda firma B2B, która myślała o sprzedaży online, słyszała: "najpierw musicie wymienić ERP"
-- To zdanie blokuje projekty na miesiące albo lata
-- merce rozbija ten mit — i pokazuje, że to nieprawda
-
----
-
 ## Dylemat "big bang"
 
 Firmy B2B stoją przed pozornym wyborem:
@@ -42,7 +31,7 @@ Firmy B2B stoją przed pozornym wyborem:
 
 ---
 
-## Koszt status quo (do narracji)
+## Koszt status quo
 
 - Ręczne przepisywanie danych między systemami
 - Rozbieżności w stanach magazynowych
@@ -59,14 +48,6 @@ Firmy B2B stoją przed pozornym wyborem:
 - Dostosowujemy się do infrastruktury klienta — nie odwrotnie
 - ERP pozostaje źródłem prawdy — zero zmian w pracy zespołu
 
-### Case studies (do użycia)
-| Firma | ERP | Metoda | Czas |
-|-------|-----|--------|------|
-| HAYNE | Vendo | SOAP | **6 tygodni** |
-| RESPOL | Asseco SAFO | Web Services | — |
-| OCHNIK | LSI | Views/adaptery | — |
-| BIALCON | Hermes SQL | — | — |
-
 ### Oszczędność vs. migracja ERP
 - **Czas:** tygodnie zamiast 12+ miesięcy
 - **Koszt:** oszczędność 100–500k PLN na samej migracji ERP
@@ -80,7 +61,7 @@ Firmy B2B stoją przed pozornym wyborem:
 | **merceLayer** | Integracja z ERP/PIM/CRM przez gotowe konektory lub open API |
 | **merceLinker** | Marketplace B2B |
 | **merceApp** | Kanał mobilny dla handlowców i klientów |
-| **Headless storefront** | API-first, niezależny od backendu |
+| **Headless storefront (Raccoon)** | API-first, niezależny od backendu |
 
 ---
 
@@ -89,94 +70,141 @@ Firmy B2B stoją przed pozornym wyborem:
 - Customer-specific pricing (indywidualne cenniki)
 - Rabaty i dopłaty produktowe
 - Zarządzanie resztówkami magazynowymi
-- Hierarchie ról i uprawnień po stronie klienta
+- Hierarchie ról i uprawnień (RBAC) po stronie klienta
 - Workflow akceptacji zamówień (approval flows)
 - Budżety zakupowe
 - Obsługa RFQ i quoting z AI
+- Masowe dodawanie wariantów do koszyka (B2B)
 
 ---
 
-## LICZBY I SOCIAL PROOF — GOTOWE DO SLAJDÓW
+## LICZBY PLATFORMY (źródło: merce.com)
 
-### Liczby platformy merce (źródło: merce.com)
 | Liczba | Co oznacza |
 |--------|-----------|
 | **1,2 mld zł** | wartość transakcji przetwarzanych rocznie |
 | **2000** | zmian platformy rocznie (Continuous Integration) |
 | **90+** | ekspertów (analiza, wdrożenie, rozwój) |
 | **15+ lat** | doświadczenia w transformacji cyfrowej |
+| **5 lat** | średni czas żywotności platform (argument za CI) |
 
-### Liczby z case studies (potwierdzone)
-| Liczba | Kontekst | Klient |
-|--------|---------|--------|
-| **+100% sprzedaży** w roku 1 po wdrożeniu | Replatforming z Magento na merce | OCHNIK |
-| **6 tygodni** do wdrożenia | Integracja z legacy ERP Vendo przez SOAP | HAYNE |
-| **2x wyższa konwersja** produktów promo w 2 tygodnie | Dynamiczne feedy produktowe na marketplace | marketplace |
-| **dziesiątki godzin/mies.** oszczędności | Automatyzacja zarządzania feedami | marketplace |
-| **120+ salonów** jako huby fulfillment | Ship-from-store | OCHNIK |
-| **5x–25x** taniej sprzedać obecnemu klientowi niż pozyskać nowego | Usługi komplementarne, CLV | HAYNE |
+---
 
-### Statystyka rynkowa (źródło: Merit Millennial B2B Report, cytat z PDF merce)
-> **„73% specjalistów dokonujących zakupów B2B w USA to millenialsi (20–35 lat) — wymusza to szybki rozwój kanału online i jego ewolucję wizualną i funkcjonalną."**
-> — Paweł Szewczyk, CMO 'merce
+## CASE STUDIES — SZCZEGÓŁY
 
-### Cytaty klientów (źródło: merce.com/platforma)
-> „Przenosząc sprzedaż z Magento na merce, zyskaliśmy pełne spectrum eCommerce w jednym miejscu."
+### DARCO — B2B + D2C (instalacje grzewcze i wentylacja)
+- **+300% zamówień B2B** po wdrożeniu (migracja z ERP na merce)
+- **+25% wzrost** w kolejnym roku (~15 000 zamówień rocznie)
+- Bonus: uruchomienie kanału D2C — wcześniej niemożliwe bez salonów fizycznych
+- Monitoring trendów konsumenckich bez budowania infrastruktury stacjonarnej
+- Źródło: merce.com/blog/cyfryzacja-uwalnia-uspione-moce-firm-b2b
 
-> „Platforma jest intuicyjna, klienci samodzielnie składają zamówienia. Słyszymy, że to **NR 1 w branży**."
+### HAYNE — integracja z Vendo ERP (B2B optyka)
+- **ERP:** Vendo, integracja przez SOAP
+- **Czas wdrożenia: 6 tygodni**
+- Pełna synchronizacja: stany, cenniki, zdjęcia, usługi specjalne
+- Automatyczne wystawianie faktur, księgowanie, statusy płatności w eCommerce
+- Reklamacje i zwroty: pełna automatyzacja — zgłoszenia z eCommerce do ERP i z powrotem
+- Synchronizacja klientów B2B i pracowników składających zamówienia w imieniu firm
+- Dashboardy real-time, monitoring KPI
+- Ocena merce: "modelowy przykład złożonej integracji B2B"
+- CLV: **5–25x taniej** sprzedać obecnemu klientowi niż pozyskać nowego
+- RBAC: handlowcy samodzielnie nadają uprawnienia klientom w grupach rabatowych
 
-> „Udostępnienie stanów z salonów przyniosło **widoczny wzrost sprzedaży online**."
+### RESPOL — audyt i platforma B2B (HVAC hurtownia)
+- **Firma:** rodzinna hurtownia od 1989 r.
+- **Skala:** 75 000+ produktów, 13 oddziałów, 200+ osób
+- **ERP:** Asseco SAFO, integracja przez Web Service
+- Klienci B2B: deweloperzy, instalatorzy, architekci, instytucje publiczne
+- Wdrożone: panel B2B z widokiem stanów sieciowych (wszystkie oddziały), statusy zamówień, indywidualne cenniki
+- Wyzwanie: brak centralnego magazynu przy 75 tys. SKU
+- Metodyka wymagań: MoSCoW (warsztaty, mapowanie procesów, KPI)
+- Liczby finansowe: brak danych pub.
+
+### OCHNIK — replatforming + omnichannel (fashion 120+ salonów)
+- **+100% sprzedaży** w roku 1 po replatformingu z Magento
+- Kolejne lata: kilkukrotne wzrosty obrotów
+- **+151% widoczności w TOP3** (styczeń 2023 – styczeń 2024)
+- **+126% widoczności w TOP10**
+- **+309% ruchu nonbrand**
+- **-80% TTFB** po wdrożeniu Raccoon Storefront (SSR, lazy loading, MPA/SPA hybrid)
+- PageSpeed: 90+/100 punktów
+- Ship-from-store: 120+ salonów jako huby fulfillment
+- InPost Pay: uproszczenie płatności, wzrost konwersji
+- Realizacja SEO z agencją Altavia Kamikaze + K2
+- Cytat: "Udostępnienie stanów z salonów przyniosło widoczny wzrost sprzedaży online." — Dawid Szrek, Manager e-commerce & IT, OCHNIK
+
+### Grupa Play (3S Data Center) — automatyzacja cloud B2B
+- Self-service dla: Microsoft 365, VMware, cloud backup VEEAM
+- Automatyczna konfiguracja środowisk przez API — zero manualnej pracy
+- Skrócenie czasu realizacji + eliminacja błędów ręcznych
+- Wdrożenie etapowe: Q2/Q3 2023, 2024 (x2 etapy)
+- Kontekst: 60% firm CEE planuje wzrost wydatków na chmurę (Forrester 2023)
+
+### SARA Workwear — optymalizacja produktów wielowariantowych (odzież robocza B2B, od 1992)
+- Problem: ERP jednowariantowy → duplikaty w katalogu, przeładowanie wyników, skomplikowana ścieżka
+- Rozwiązanie: grupowanie wg atrybutów, agregacja wyszukiwania, **masowe dodawanie wariantów do koszyka**
+- Wyniki: zwiększona liczba produktów w koszyku, poprawa konwersji, spójne UX B2B
+
+### Marketplace — dynamiczne feedy produktowe
+- **2x wyższa konwersja** produktów promo w 2 tygodnie kampanii
+- **Dziesiątki godzin/mies.** oszczędności na konfiguracji feedów
+- Elastyczna "gra cenowa" + sezonowe pozycjonowanie przy niższym koszcie kliknięcia
+
+### New Balance Polska — omnichannel
+- Aplikacje mobilne iOS + Android (merceApp)
+- Spartavity: program lojalnościowy — punkty online i offline, wymiana na vouchery
+- Afiliacja: unikalne kody, eliminacja fraudu, płatność tylko za skuteczne transakcje
+- Complete the Look: cross-sell stylizacji
+
+---
+
+## CYTATY KLIENTÓW (potwierdzone)
+
+> "Przenosząc sprzedaż z Magento na merce, zyskaliśmy pełne spectrum eCommerce w jednym miejscu."
+
+> "Platforma jest intuicyjna, klienci samodzielnie składają zamówienia. Słyszymy, że to NR 1 w branży."
+
+> "Udostępnienie stanów z salonów przyniosło widoczny wzrost sprzedaży online."
 > — Dawid Szrek, Manager e-commerce & IT, OCHNIK
 
 ---
 
-## Pełna mapa klientów merce (źródło: sitemap + Perplexity)
+## STATYSTYKI RYNKOWE
 
-| Klient | Branża | Wdrożenie |
-|--------|--------|-----------|
-| **OCHNIK** | Fashion retail (120+ salonów) | Ship-from-store, InPost Pay, wzrost widoczności, +100% sprzedaży r/r |
-| **HAYNE** | Optyka/B2B | ERP Vendo SOAP, porównywarka, usługi komplementarne |
-| **BIALCON** | Fashion (70 salonów) | B2B + B2C, Hermes SQL bez wymiany |
-| **RESPOL** | HVAC hurtownia B2B | Platforma B2B + Asseco SAFO |
-| **New Balance Polska** | Sport | Aplikacja mobilna, afiliacja, Spartavity, Complete the Look |
-| **W.KRUK** | Jubilerstwo | Aplikacja mobilna |
-| **Grupa Play** | Telco/cloud | Automatyzacja sprzedaży usług cloud |
-| **HENDI** | HoReCa/gastro | Platforma B2B |
-| **Arpex** | Zabawki/dekoracje | Platforma B2B, replatforming |
-| **51015** | Fashion/retail | Platforma commerce |
-| **SARA** | Fashion | Optymalizacja prezentacji produktów wielowariantowych |
+> "73% specjalistów dokonujących zakupów B2B w USA to millenialsi (20–35 lat)."
+> — Paweł Szewczyk, CMO merce (źródło: Merit Millennial B2B Report)
+
+- 60% firm w CEE planuje wzrost wydatków na chmurę (Forrester 2023)
+- 82% firm oczekuje pełnej automatyzacji zakupów B2B (Forrester 2023)
+- RBAC redukuje ryzyko naruszeń danych o 37% (Global Ecommerce Security Report 2021)
 
 ---
 
-## Wszystkie case studies na merce.com/realizacje (pełna lista)
+## RANKING — NAJSILNIEJSZE ARGUMENTY DO SLAJDÓW
 
-| Case study URL | Klient | Temat | Liczby pub. |
-|----------------|--------|-------|-------------|
-| b2b-respol | RESPOL | Platforma B2B + Asseco SAFO ERP | brak |
-| erp-vendo-hayne | HAYNE | B2B + Vendo SOAP | 6 tygodni |
-| marketplace | n/d | Dynamiczne feedy XML/CSV | 2x konwersja, dziesiątki godz./mies. |
-| ship-from-store-ochnik | OCHNIK | Fulfillment z 120+ salonów | wzrost jakościowy |
-| wzrost-widocznosci-ochnik | OCHNIK | SEO/widoczność | brak |
-| integracja-z-InPost-Pay-ochnik | OCHNIK | Uproszczenie płatności | wzrost konwersji jakościowy |
-| aplikacja-mobilna-newbalance | New Balance | iOS + Android app | wzrost konwersji jakościowy |
-| spartavity-newbalance | New Balance | Program lojalnościowy Sparta | integracja online/offline |
-| partnerzy-afiliacyjni-newbalance | New Balance | Śledzenie afiliacji | eliminacja fraudu |
-| complete-the-look-newbalance | New Balance | Cross-sell stylizacje | brak |
-| porownywarka-produktow-hayne | HAYNE | Porównywarka produktów | szybsze decyzje, brak % |
-| zakup-komplementarnych-produktow-hayne | HAYNE | Usługi dodatkowe (gwarancje) | 5–25x CLV vs. nowy klient |
-| cloud-services-play | Grupa Play | Automatyzacja cloud | brak |
-| optymalizacja-prezentacji-produktow-sara | SARA | Wielowariantowe produkty | brak |
-| zarzadzanie-uprawnieniami | n/d | RBAC B2B | opis jakościowy |
-| zwiekszenie-efektywnosci-planowania | n/d | Optymalizacja planowania | brak |
+1. **DARCO: +300% zamówień B2B** — bez wymiany ERP
+2. **HAYNE: 6 tygodni** — legacy ERP Vendo SOAP, bez wymiany
+3. **OCHNIK: +100% sprzedaży** rok 1 + SEO TOP3 +151%
+4. **RESPOL: 75 000 SKU, 13 oddziałów** — skala złożoności B2B
+5. **1,2 mld zł** transakcji rocznie — skala zaufania
+6. **Cytat Dawida Szreka** — real person, real quote
+7. **2x konwersja** marketplace w 2 tygodnie
 
 ---
 
-## Dane do uzupełnienia (brakuje — zapytać team merce)
+## PEŁNA LISTA KLIENTÓW
+
+OCHNIK, HAYNE, DARCO, BIALCON (70 salonów, Hermes SQL), RESPOL (HVAC, Asseco SAFO),
+New Balance Polska, SARA Workwear, W.KRUK, Grupa Play (3S Data Center), HENDI, Arpex, 51015
+
+---
+
+## DANE DO UZUPEŁNIENIA (zapytać team merce)
 
 | Metryka | Skąd wziąć |
 |---------|-----------|
-| Konkretne liczby RESPOL po wdrożeniu B2B | Dane z projektu |
-| Czas wdrożenia BIALCON, OCHNIK | Dane wewnętrzne |
-| % wzrostu zamówień online po wdrożeniu B2B | OMS analytics |
-| % zamówień B2B bez udziału handlowca | merceApp analytics |
-| Koszt TCO: integracje punktowe vs. merce | Analiza projektów |
+| Czas wdrożenia RESPOL, BIALCON | Dane wewnętrzne |
+| % zamówień B2B bez udziału handlowca po wdrożeniu | OMS analytics |
+| ROI z integracji merce vs. własna integracja punktowa | Analiza TCO |
+| Wyniki DARCO rok 3+ | Klient |
