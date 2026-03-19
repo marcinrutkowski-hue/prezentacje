@@ -6,9 +6,9 @@
 
 ## Progress
 
-🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢
+🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢
 
-16 gotowych · 0 do opracowania · 0 krytyczne
+18 gotowych · 0 do opracowania · 0 krytyczne
 
 🟢 ok · 🟣 treść gotowa, wymaga dopracowania flow · 🟡 do poprawki · 🔴 gruntowna zmiana
 
@@ -17,16 +17,18 @@
 ## Flow prezentacji
 
 ```
-OTWARCIE (S1–S3)      strach przed ruszeniem ERP → merce rozwiązało ten problem
-MECHANIZM (S4–S6)     jak działa + dylemat + kim jesteśmy
-INTEGRACJA (S7)       6 metod — żaden ERP nie jest przeszkodą
-DOWÓD (S8–S11)        case studies + ERP zostaje
-WARTOŚĆ (S12–S13)     funkcje + automatyzacja
-DECYZJA (S14)         dwie niezależne decyzje
-ZAMKNIĘCIE (S15–S16)  co zyskujesz + ruch
+OTWARCIE (S1–S3)        strach przed ruszeniem ERP → merce rozwiązało ten problem
+MECHANIZM (S4–S6)       jak działa + kontekst rynkowy + kim jesteśmy
+INTEGRACJA (S7)         6 metod — żaden ERP nie jest przeszkodą
+DOWÓD (S8–S11)          case studies + ERP zostaje
+CYTAT (S12)             głos klienta
+WARTOŚĆ (S13–S14)       funkcje B2B · funkcje operacyjne
+SKALA (S15)             wzrost bez rozrostu zespołu
+DECYZJA (S16)           dwie niezależne decyzje
+ZAMKNIĘCIE (S17–S18)    co zyskujesz + ruch
 ```
 
-**Łącznie: 16 slajdów**
+**Łącznie: 18 slajdów**
 
 ---
 
@@ -42,12 +44,12 @@ ZAMKNIĘCIE (S15–S16)  co zyskujesz + ruch
 > Od dłuższego czasu wiesz.
 > Co Cię blokuje?
 
-**Tekst pomocniczy na slajdzie:**
+**Tekst pomocniczy:**
 Nie brak pomysłu. Nie brak woli.
 
 ERP działa — i właśnie dlatego nikt nie chce go ruszyć.
 
-**Design:** ciemne tło, pytanie jako dominujący element, odpowiedź mniejszą czcionką poniżej
+**Design:** ciemne tło, pytanie dominuje, odpowiedź mniejszą czcionką poniżej
 
 ---
 
@@ -58,16 +60,15 @@ ERP działa — i właśnie dlatego nikt nie chce go ruszyć.
 > Firmy nie odkładają rozwoju sprzedaży online przez brak gotowości.
 > Odkładają przez strach przed destabilizacją infrastruktury, która działa.
 
-**Tekst pomocniczy na slajdzie:**
+**Tekst pomocniczy:**
 Nie "ERP jest przestarzały."
 
 Właśnie odwrotnie — **ERP działa, obsługuje zamówienia, integruje magazyn, rozlicza faktury.**
 I nikt nie chce ryzykować, że coś się posypie.
 
-Ten strach jest racjonalny.
-Ale nie musi blokować wzrostu.
+Ten strach jest racjonalny. Ale nie musi blokować wzrostu.
 
-**Design:** nagłówek jako teza, tekst pomocniczy jako rozwinięcie po prawej lub poniżej
+**Design:** nagłówek jako teza, tekst jako rozwinięcie
 
 ---
 
@@ -77,7 +78,7 @@ Ale nie musi blokować wzrostu.
 **Nagłówek na slajdzie:**
 > Rozwiązaliśmy ten problem.
 
-**Tekst pomocniczy na slajdzie:**
+**Tekst pomocniczy:**
 Nie wymieniamy ERP.
 
 Dokładamy warstwę commerce **nad** istniejącą infrastrukturą — tak żeby sprzedaż online rosła, a ERP ani drgnie.
@@ -86,7 +87,7 @@ Kanały B2B i B2C, integracja z magazynem, cenniki, zamówienia, faktury — wsz
 
 **ERP zostaje. Sprzedaż rośnie.**
 
-**Design:** nagłówek jako mocne stwierdzenie, tekst jako rozwinięcie, ostatnie zdanie wyróżnione
+**Design:** nagłówek jako mocne twierdzenie, ostatnie zdanie wyróżnione
 
 ---
 
@@ -96,7 +97,7 @@ Kanały B2B i B2C, integracja z magazynem, cenniki, zamówienia, faktury — wsz
 **Nagłówek na slajdzie:**
 > Warstwa commerce nad ERP — bez dotykania ERP
 
-**Schemat na slajdzie:**
+**Schemat:**
 ```
 Klient B2B · Klient B2C
 przeglądarka · aplikacja mobilna · marketplace
@@ -109,21 +110,20 @@ przeglądarka · aplikacja mobilna · marketplace
 ```
 
 **Tekst pod schematem:**
-ERP dalej robi to co robił.
-Twój zespół pracuje na tych samych danych co zawsze.
-Klienci B2B i B2C zamawiają online — 24 godziny na dobę, 7 dni w tygodniu.
+ERP dalej robi to co robił. Twój zespół pracuje na tych samych danych.
+Klienci B2B i B2C zamawiają online — 24/7.
 
-**Design:** schemat trójwarstwowy jako główny element wizualny, tekst uzupełniający poniżej
+**Design:** schemat trójwarstwowy jako główny element
 
 ---
 
-### 5 — Dlaczego nie wcześniej (fałszywy dylemat)
+### 5 — Dlaczego nie wcześniej
 **Status:** 🟢
 
 **Nagłówek na slajdzie:**
 > Większość firm widziała dwa wyjścia. Oba blokowały wzrost.
 
-**Tabela na slajdzie:**
+**Tabela:**
 
 | | Wymienić ERP | Czekać |
 |---|---|---|
@@ -132,10 +132,10 @@ Klienci B2B i B2C zamawiają online — 24 godziny na dobę, 7 dni w tygodniu.
 | Ryzyko | Operacyjne, wysokie | Sprzedaż nie rośnie |
 | Kanał online | Po projekcie | Nadal brak |
 
-**Punchline pod tabelą:**
-Merce to trzecia droga — **rozwój sprzedaży bez wymiany ERP.**
+**Punchline:**
+merce to trzecia droga — **rozwój sprzedaży bez wymiany ERP.**
 
-**Design:** tabela dwukolumnowa, punchline jako podsumowanie wyróżnione kolorem
+**Design:** tabela dwukolumnowa, punchline wyróżniony kolorem
 
 ---
 
@@ -145,17 +145,17 @@ Merce to trzecia droga — **rozwój sprzedaży bez wymiany ERP.**
 **Nagłówek na slajdzie:**
 > merce.com — platforma eCommerce B2B i B2C dla firm z ERP
 
-**4 liczby jako duże elementy wizualne:**
+**4 liczby:**
 
-**1,2 mld zł** transakcji rocznie na platformie
-**2 000** zmian platformy rocznie (Continuous Integration)
-**90+** ekspertów: analiza, wdrożenie, rozwój
+**1,2 mld zł** transakcji rocznie
+**2 000** zmian platformy rocznie
+**90+** ekspertów
 **15+** lat w transformacji cyfrowej
 
-**Logotypy / lista klientów:**
+**Lista klientów:**
 OCHNIK · DARCO · RESPOL · HAYNE · New Balance · W.KRUK · Arpex · Grupa Play / 3S
 
-**Design:** liczby jako 4 duże karty, logotypy klientów w jednym rzędzie poniżej
+**Design:** 4 duże karty z liczbami, logotypy klientów poniżej
 
 ---
 
@@ -165,22 +165,21 @@ OCHNIK · DARCO · RESPOL · HAYNE · New Balance · W.KRUK · Arpex · Grupa Pl
 **Nagłówek na slajdzie:**
 > "Nasz ERP nie ma API / jest za stary" — to nie jest przeszkoda
 
-**Tabela na slajdzie:**
+**4 najczęstsze metody jako duże bloki:**
 
-| Metoda | Kiedy stosujemy |
-|--------|----------------|
-| **REST API** | nowoczesne systemy klasy ERP/WMS |
-| **SOAP** | starsze systemy enterprise, np. Vendo, SAP |
-| **Widoki bazodanowe** | integracja bez ingerencji w kod ERP |
-| **Procedury składowane** | głęboka integracja logiki biznesowej |
-| **Pliki** | najprostszy i najszybszy most danych |
-| **Webhooks** | synchronizacja zdarzeniowa w czasie rzeczywistym |
+**REST API** — nowoczesne systemy ERP i WMS
+**SOAP** — starsze systemy enterprise (Vendo, SAP, Asseco)
+**Widoki bazodanowe** — integracja bez ingerencji w kod ERP
+**Pliki i webhooks** — najprostsze i najszybsze mosty danych
 
-**Tekst pod tabelą:**
+**Tekst pod blokami:**
 Dostosowujemy się do Twojej infrastruktury — nie odwrotnie.
-**HAYNE:** Vendo ERP przez SOAP → wdrożenie w **6 tygodni**.
+Obsługujemy też procedury składowane i dedykowane adaptery.
 
-**Design:** tabela dwukolumnowa, HAYNE jako konkretny anchor poniżej
+**Anchor:**
+HAYNE: Vendo ERP przez SOAP → wdrożenie w **6 tygodni**
+
+**Design:** 4 bloki wizualne, anchor poniżej wyróżniony
 
 ---
 
@@ -192,15 +191,13 @@ Dostosowujemy się do Twojej infrastruktury — nie odwrotnie.
 
 **Liczba dominująca:** **6 tygodni**
 
-**Na slajdzie:**
-- ERP: Vendo (legacy), integracja przez SOAP
-- Zsynchronizowane: stany, cenniki, zdjęcia, usługi specjalne
+**Na slajdzie (4 punkty):**
+- ERP: Vendo (legacy), integracja przez SOAP — stany, cenniki, zdjęcia, usługi
 - Automatyczne faktury, statusy płatności, reklamacje i zwroty end-to-end
 - RBAC: handlowcy samodzielnie nadają uprawnienia klientom w grupach rabatowych
-- Real-time dashboardy KPI dla managementu
-- Obecni klienci kosztują **5–25x mniej** w obsłudze niż pozyskanie nowego
+- Klienci obecni kosztują **5–25x mniej** w obsłudze niż pozyskanie nowego
 
-**Design:** "6 tygodni" jako dominujący element, lista z checkboxami poniżej
+**Design:** "6 tygodni" jako dominujący element, 4 punkty poniżej
 
 ---
 
@@ -213,16 +210,14 @@ Dostosowujemy się do Twojej infrastruktury — nie odwrotnie.
 **Liczba dominująca:** **+300% zamówień B2B**
 
 **Na slajdzie:**
-- 600 aktywnych klientów B2B na platformie
-- 50 nowych klientów B2B pozyskanych w ciągu miesięcy od startu
-- Zamówienia dostępne 24/7, realizacja w 48h
-- **+25% wzrost** w kolejnym roku — ~15 000 zamówień rocznie
-- Nowy kanał D2C uruchomiony równolegle — wcześniej niemożliwy bez salonów fizycznych
+- 600 aktywnych klientów B2B · 50 nowych klientów w miesiącach od startu
+- Zamówienia 24/7, realizacja w 48h · +25% wzrost rok 2 (~15 000 zamówień rocznie)
+- Nowy kanał D2C uruchomiony równolegle — wcześniej niemożliwy bez salonów
 - Monitoring trendów konsumenckich bez budowania nowej infrastruktury
 
 **Branża:** instalacje grzewcze i wentylacyjne
 
-**Design:** "+300%" jako dominująca liczba, lista z ikoną wzrostu
+**Design:** "+300%" dominuje, lista w dwóch kolumnach poniżej
 
 ---
 
@@ -235,14 +230,12 @@ Dostosowujemy się do Twojej infrastruktury — nie odwrotnie.
 **Liczba dominująca:** **75 000 SKU · 13 oddziałów**
 
 **Na slajdzie:**
-- Hurtownia HVAC, rodzinna firma od 1989 roku, 200+ pracowników
-- ERP: Asseco SAFO, integracja przez Web Service
-- Wyzwanie: 13 oddziałów, każdy z własnym stanem — brak centralnego magazynu
-- Panel B2B: stany sieciowe ze wszystkich oddziałów jednocześnie, statusy zamówień, indywidualne cenniki
-- Klienci: deweloperzy, instalatorzy, architekci, instytucje publiczne
-- Efekt: przyspieszenie logistyki i wzrost satysfakcji klientów B2B
+- Hurtownia HVAC, od 1989 roku, 200+ pracowników, ERP: Asseco SAFO
+- Wyzwanie: 13 oddziałów z oddzielnymi stanami, brak centralnego magazynu
+- Rozwiązanie: panel B2B z widokiem stanów sieciowych ze wszystkich oddziałów jednocześnie
+- Indywidualne cenniki, statusy zamówień, klienci: deweloperzy, instalatorzy, instytucje
 
-**Design:** liczby jako dominujące elementy, lista rozwiązań poniżej
+**Design:** liczby jako dominujące elementy, 4 punkty poniżej
 
 ---
 
@@ -252,7 +245,7 @@ Dostosowujemy się do Twojej infrastruktury — nie odwrotnie.
 **Nagłówek na slajdzie:**
 > Zero zmian w procesach wewnętrznych. Zero szkoleń z nowego systemu.
 
-**Schemat na slajdzie:**
+**Schemat:**
 ```
 ERP
 ceny · stany · dane klientów · historia zamówień
@@ -263,79 +256,114 @@ ceny · stany · dane klientów · historia zamówień
   B2B portal · B2C sklep · aplikacja · marketplace
 ```
 
-**Cytat na slajdzie:**
-> *"Udostępnienie stanów z salonów przyniosło widoczny wzrost sprzedaży online."*
-> — **Dawid Szrek**, Manager e-commerce & IT, OCHNIK
-
-**Tekst uzupełniający:**
+**Tekst pod schematem:**
 Twój zespół nie zmienia sposobu pracy.
 Klienci B2B i B2C widzą aktualne dane — bez opóźnień, bez rozbieżności.
 
-**Design:** schemat + cytat jako dwa równorzędne elementy slajdu
+**Design:** schemat jako jedyny główny element, tekst uzupełniający poniżej
 
 ---
 
-### 12 — Gotowe funkcje
+### 12 — Cytat
+**Status:** 🟢
+
+**Slajd pełnoekranowy — jeden cytat:**
+
+> *"Udostępnienie stanów z salonów przyniosło widoczny wzrost sprzedaży online."*
+
+**— Dawid Szrek**
+Manager e-commerce & IT, OCHNIK
+
+**Design:** ciemne tło, cytat dużą czcionką na środku, imię i stanowisko poniżej
+
+---
+
+### 13 — Funkcje B2B
 **Status:** 🟢
 
 **Nagłówek na slajdzie:**
-> Pełny zestaw funkcji B2B i B2C out-of-the-box — nie piszemy od zera, konfigurujemy
+> Funkcje B2B out-of-the-box — gotowe do konfiguracji, nie do pisania
 
-**Tabela na slajdzie:**
+**4 funkcje jako duże bloki z opisem:**
 
-| Funkcja | Co to znaczy w praktyce |
-|---------|------------------------|
-| **Indywidualne cenniki** | Każdy kontrahent B2B widzi swoje ceny z ERP |
-| **RBAC — hierarchia uprawnień** | Handlowiec nadaje dostępy klientom sam, bez IT |
-| **Workflow akceptacji zamówień** | Zamówienie czeka na zatwierdzenie zanim trafi do ERP |
-| **Budżety zakupowe** | Klient B2B nie może przekroczyć ustalonego limitu |
-| **Masowe dodawanie wariantów** | Zamówienie 50 rozmiarów jednym klikiem *(SARA Workwear)* |
-| **RFQ i quoting z AI** | Zapytanie ofertowe → wycena bez angażowania handlowca |
-| **Automatyczne dokumenty** | Faktura, WZ, potwierdzenie — generowane automatycznie |
-| **Ship-from-store / B2C** | 120+ lokalizacji jako punkty fulfillment *(OCHNIK)* |
+**Indywidualne cenniki**
+Każdy kontrahent widzi swoje ceny pobrane z ERP — bez ręcznego ustawiania.
 
-**Design:** tabela dwukolumnowa, przykłady firm w nawiasach kursywą
+**RBAC — hierarchia uprawnień**
+Handlowiec nadaje dostępy klientom sam, bez angażowania IT.
+
+**Workflow akceptacji zamówień**
+Zamówienie czeka na zatwierdzenie zanim trafi do ERP — zgodnie z procesem firmy.
+
+**Budżety zakupowe**
+Klient B2B nie może przekroczyć ustalonego limitu — automatyczna kontrola.
+
+**Design:** 4 karty równej szerokości, ikona + nazwa + opis
 
 ---
 
-### 13 — Wzrost bez proporcjonalnego wzrostu zespołu
+### 14 — Funkcje operacyjne
+**Status:** 🟢
+
+**Nagłówek na slajdzie:**
+> Automatyzacja operacji — mniej pracy ręcznej, więcej zamówień
+
+**4 funkcje jako duże bloki z opisem:**
+
+**Masowe dodawanie wariantów**
+Zamówienie 50 rozmiarów jednym klikiem — kluczowe dla B2B odzieżowego i przemysłowego.
+
+**RFQ i quoting z AI**
+Zapytanie ofertowe → wycena bez angażowania handlowca — obsługiwane automatycznie.
+
+**Automatyczne dokumenty**
+Faktura, WZ, potwierdzenie zamówienia — generowane i wysyłane automatycznie.
+
+**Ship-from-store / fulfillment**
+Zamówienia B2C realizowane z dowolnego oddziału lub salonu — bez centralnego magazynu.
+
+**Design:** 4 karty, ikona + nazwa + opis, spójne z S13
+
+---
+
+### 15 — Wzrost bez rozrostu zespołu
 **Status:** 🟢
 
 **Nagłówek na slajdzie:**
 > Sprzedaż B2B i B2C rośnie. Obsługa nie rośnie proporcjonalnie.
 
-**3 bloki na slajdzie:**
+**3 bloki:**
 
-**Dynamiczne feedy i marketplace**
-Feedy produktowe: **2x wyższa konwersja** w 2 tygodnie kampanii.
-**Dziesiątki godzin miesięcznie** zaoszczędzone na ręcznej konfiguracji.
+**Feedy i marketplace**
+Dynamiczne feedy: **2x wyższa konwersja** produktów promo w 2 tygodnie.
+Dziesiątki godzin miesięcznie zaoszczędzone na ręcznej konfiguracji.
 
 **Autoprovisionig B2B**
-Grupa Play / 3S Data Center: sprzedaż i konfiguracja usług chmurowych (VEEAM, VMware, M365) **w pełni automatyczna.** Zero błędów ręcznych.
+Grupa Play / 3S: sprzedaż i konfiguracja usług chmurowych — **w pełni automatyczna.**
+Zero manualnej pracy, zero błędów ręcznych.
 
 **Autonomia biznesowa**
-Arpex: zmiany cenników, kampanii i struktury platformy bez angażowania developerów — marketing działa niezależnie od IT.
+Arpex: marketing zmienia cenniki i kampanie bez angażowania IT.
+Aktualizacje platformy bez przestojów ERP.
 
-**Punchline:**
-*Więcej zamówień. Ta sama załoga.*
+**Punchline:** *Więcej zamówień. Ta sama załoga.*
 
-**Design:** 3 karty z ikonami, punchline jako podsumowanie wyróżnione
+**Design:** 3 karty z ikonami, punchline na dole
 
 ---
 
-### 14 — Dwie niezależne decyzje
+### 16 — Dwie niezależne decyzje
 **Status:** 🟢
 
 **Nagłówek na slajdzie:**
-> Rozwój sprzedaży online i zmiana ERP to dwa osobne projekty. Możesz je rozdzielić.
+> Rozwój sprzedaży online i zmiana ERP to dwa osobne projekty.
 
-**Oś czasu na slajdzie:**
+**Oś czasu:**
 ```
-TERAZ                    ZA ROK / DWA             KIEDY JESTEŚ GOTOWY
-  │                           │                           │
-Uruchamiasz              Skalujesz                  Zmieniasz ERP
-sprzedaż online          B2B · B2C · D2C             (albo nie)
-B2B portal · app         marketplace · nowe rynki
+TERAZ                   ZA ROK / DWA            KIEDY JESTEŚ GOTOWY
+  │                          │                          │
+Uruchamiasz             Skalujesz                 Zmieniasz ERP
+sprzedaż online         B2B · B2C · D2C            (albo nie)
 ```
 
 **Tekst pod osią:**
@@ -348,16 +376,16 @@ ERP zmienisz kiedy będziesz gotowy — albo nie zmienisz wcale.**
 
 ---
 
-### 15 — Co zyskujesz
+### 17 — Co zyskujesz
 **Status:** 🟢
 
 **Nagłówek na slajdzie:**
 > Szybciej, taniej, bez ryzyka. I bez ruszania ERP.
 
-**3 duże bloki z liczbami:**
+**3 bloki:**
 
 **Czas**
-Uruchamiasz kanał online w tygodnie, nie miesiące.
+Tygodnie, nie miesiące.
 *HAYNE: 6 tygodni — Vendo ERP, SOAP, pełna integracja*
 
 **Oszczędność**
@@ -365,36 +393,36 @@ Uruchamiasz kanał online w tygodnie, nie miesiące.
 *Brak kosztów migracji ERP*
 
 **Wzrost**
-+300% zamówień B2B bez powiększania zespołu obsługi.
++300% zamówień B2B bez powiększania zespołu.
 *DARCO: 600 klientów B2B, 24/7, realizacja 48h*
 
-**Dodatkowy argument:**
+**Statystyka:**
 73% osób decydujących o zakupach B2B to millenialsi — zamawiają tak jak w B2C.
 *(Merit Millennial B2B Report)*
 
-**Design:** 3 karty równej szerokości, dominująca liczba + opis + przykład firmy
+**Design:** 3 karty z dominującą liczbą, statystyka poniżej jako osobna linia
 
 ---
 
-### 16 — Następny krok
+### 18 — Następny krok
 **Status:** 🟢
 
 **Nagłówek na slajdzie:**
-> Nie projekt. Rozmowa o Twoim ERP, Twoich kanałach i możliwościach wzrostu.
+> Nie projekt. Rozmowa o Twoim ERP i możliwościach wzrostu.
 
 **Na slajdzie:**
 
 Trzy pytania, od których zaczynamy:
 
-1. **Który ERP i jak działa dziś?** — Jaka wersja, jakie integracje, co obsługuje?
-2. **Gdzie chcesz rosnąć?** — B2B portal, B2C sklep, aplikacja mobilna, marketplace, D2C?
-3. **Co najbardziej boli?** — Ręczne zamówienia, stany, handlowcy jako operatorzy?
+1. **Który ERP i jak działa dziś?** — wersja, integracje, co obsługuje
+2. **Gdzie chcesz rosnąć?** — B2B portal, B2C sklep, aplikacja, marketplace, D2C
+3. **Co najbardziej boli?** — ręczne zamówienia, stany, handlowcy jako operatorzy
 
 Na podstawie odpowiedzi przygotowujemy mapę integracji i roadmapę wzrostu.
 
 **CTA:**
 Odpowiedz na tego maila — zaczynamy od rozmowy, nie od oferty.
 
-**Dane kontaktowe:** [imię · stanowisko · email · telefon]
+**[imię · stanowisko · email · telefon]**
 
 **Design:** 3 pytania jako duże elementy, CTA wyróżniony, dane kontaktowe na dole
