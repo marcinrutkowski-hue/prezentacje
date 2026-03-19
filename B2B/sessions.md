@@ -48,12 +48,6 @@ Research merce.com — zebranie liczb, social proof i case studies do narracji.
 - "Platforma jest intuicyjna, klienci samodzielnie składają zamówienia. Słyszymy, że to NR 1 w branży."
 - "Udostępnienie stanów z salonów przyniosło widoczny wzrost sprzedaży online." — Dawid Szrek, Manager e-commerce & IT, OCHNIK
 
-**Uwaga metodyczna:**
-- merce.com = Nuxt/Vue.js, JS-rendered — WebFetch zwraca tylko CSS na wszystkich podstronach
-- Perplexity wyciąga co Google zaindeksował ze snippetów — może nie mieć pełnej treści
-- DARCO pochodzi z bloga merce, nie z case study na /realizacje
-- BIALCON i W.KRUK — potwierdzeni jako klienci, brak pub. danych liczbowych
-
 ---
 
 ## Sesja 3 — ZAMKNIĘTA
@@ -62,113 +56,85 @@ Research merce.com — zebranie liczb, social proof i case studies do narracji.
 Głębszy research — 24 URLe dostarczone przez użytkownika (blogi + realizacje szczegółowe).
 
 ### Co zrobiono
-Perplexity search dla wszystkich 24 URLi w 3 batchach. Wyciągnięte dane:
+Perplexity search dla wszystkich 24 URLi w 3 batchach. Nowe dane:
 
-**Nowe dane — DARCO:**
-- **600 aktywnych klientów B2B** na platformie
-- **50 nowych klientów B2B** w ciągu kilku miesięcy od wdrożenia
-- Zamówienia 24/7, realizacja w 48h
-- Cytaty: Tomasz Domaradzki (CEO) + Łukasz Duda — potwierdzone, brzmienie do weryfikacji w /darco-podejscie-user-oriented
-
-**Nowe dane — Arpex:**
-- ERP: Comarch ERP XL z integracją
-- Platforma wielojęzyczna
-- Marketing bez angażowania IT — autonomia departamentu
-- Aktualizacje bez przestojów ERP
-- b2b.arpex.com.pl
-
-**Nowe dane — Rosa Plast:**
-- Automatyczna generacja TDS PDF per produkt
-- Integracja Mapbox (lokalizacja partnerów)
-- Multi-currency B2B
-- Kanały: B2B + B2C
-
-**Nowe dane — SARA Workwear (~500 pracowników):**
-- ERP: Streamsoft Prestiż, integracja dwukierunkowa
-- 3 poziomy cenowe dla grup klientów
-- Oddzielne domeny B2B i B2C
-- Platforma wielojęzyczna
-- Problem ERP jednowariantowy → rozwiązanie: masowe dodawanie wariantów
-
-**Nowe dane — RESPOL:**
-- 30+ lat na rynku (od 1989)
-- Efekty: przyspieszenie logistyki, wzrost satysfakcji klientów
-- Asseco SAFO przez Web Service
-
-**Nowe dane — Grupa Play / 3S Data Center:**
-- Etap 1 (Q2/Q3 2023): Autoprovisionig VEEAM
-- Etap 2 (2024): Virtual Data Center (VMware)
-- Etap 3 (2024): Obszar partnerski (Microsoft 365)
-- Zero manualnej pracy — pełna automatyzacja API
-
-**Nowe dane — OCHNIK InPost Pay:**
-- merce stworzył plugin InPost Pay jako jeden z pierwszych na rynku PL
-- Ochnik = pilot → teraz standard wdrożeń merce
-- Uproszczenie checkout → wzrost konwersji mobilnej
-
-**Nowe dane — New Balance:**
-- Complete the Look: cross-sell stylizacji, API endpoints, szablony, direct add-to-cart
-- Afiliacja: performance marketing, płatność za skuteczne transakcje, eliminacja fraudu → standardowy moduł merce
-
-**Nowy cytat z bloga:**
-- Paweł Szewczyk: platforma przenosi procesy z ERP do eCommerce → redukcja licencji ERP per user
-- Szacunek rynkowy: 20–40% ogólny wzrost sprzedaży B2B po wdrożeniu platformy eCommerce
+- DARCO: 600 aktywnych klientów B2B, 50 nowych w miesiącach, zamówienia 24/7 / 48h
+- Arpex: Comarch ERP XL, marketing bez IT, aktualizacje bez przestojów ERP
+- Rosa Plast: auto TDS PDF, Mapbox, multi-currency B2B+B2C
+- SARA: Streamsoft Prestiż, 3 poziomy cenowe, ~500 pracowników
+- RESPOL: 30+ lat na rynku, przyspieszenie logistyki
+- Grupa Play: 3-etapowe wdrożenie (VEEAM → VMware → M365), autoprovisionig
+- OCHNIK InPost Pay: merce = pierwszy plugin PL, teraz standard, wzrost konwersji
+- New Balance: Complete the Look (cross-sell), Afiliacja (performance marketing, anty-fraud)
+- Szacunek rynkowy: 20–40% wzrostu sprzedaży B2B po wdrożeniu
 
 ---
 
 ## Sesja 4 — ZAMKNIĘTA
 
 ### Cel
-Przebudowa planu prezentacji — wersja PDF (cold mailing bez prezentera).
+Przebudowa planu i narracji pod PDF/cold mailing (odbiorca bez prezentera).
 
 ### Co zrobiono
-- Ocena poprzedniej struktury (15 slajdów z narratorem) pod kątem czytelności w PDF
-- Zidentyfikowane problemy: tekst był w narracji, nie na slajdach; case studies w jednej tabeli; brak slajdu "kim jest merce"
-- Przebudowano plan na 16 slajdów — każdy slajd samonośny
-- Przepisano narrację: nagłówki jako tezy, tekst pomocniczy na slajdzie, liczby i cytaty widoczne w PDF
-
-### Kluczowe decyzje strukturalne
-- **S6 nowy:** "Kim jest merce" — 4 liczby platformy + lista klientów (odbiorca cold mailingu nie zna merce)
-- **S7–S10:** case studies rozbite na osobne slajdy (HAYNE, DARCO, RESPOL) — zamiast tabeli zbiorczej
-- **S11:** cytat Dawida Szreka (OCHNIK) wbudowany w slajd "ERP zostaje"
-- **S12:** funkcje B2B jako tabela z przykładami firm
-- **S13:** automatyzacja — 3 konkretne przykłady (marketplace, Grupa Play, Arpex)
-- **S14:** "Dwie niezależne decyzje" — oś czasu jako główny element wizualny
-- **S15:** podsumowanie z 3 liczbami + statystyka millennialsi
-- **S16:** CTA — 3 pytania otwierające rozmowę zamiast oferty
-
-### Numery slajdów (wersja PDF)
-| S | Temat | Dominujący element |
-|---|-------|--------------------|
-| 1 | Hook | pytanie otwierające |
-| 2 | Mit | przekreślony cytat |
-| 3 | Koszt stania w miejscu | lista + 82% Forrester |
-| 4 | Fałszywy dylemat | tabela 2 złych opcji |
-| 5 | Trzecia droga | schemat 3-warstwowy |
-| 6 | Kim jest merce | 4 liczby + logotypy klientów |
-| 7 | 6 metod integracji | tabela metod + HAYNE anchor |
-| 8 | Case study: HAYNE | 6 tygodni |
-| 9 | Case study: DARCO | +300% zamówień B2B |
-| 10 | Case study: RESPOL | 75 000 SKU · 13 oddziałów |
-| 11 | ERP zostaje + cytat | schemat + Dawid Szrek |
-| 12 | Funkcje B2B | tabela z przykładami |
-| 13 | Automatyzacja | 3 bloki z firmami |
-| 14 | Dwie decyzje | oś czasu |
-| 15 | Co zyskujesz | 3 liczby + millennialsi |
-| 16 | CTA | 3 pytania + kontakt |
+- Przebudowano plan: 16 slajdów, każdy samonośny
+- Dodano S6 "Kim jest merce" (odbiorca cold mailingu nie zna merce)
+- Case studies rozbite na osobne slajdy (HAYNE, DARCO, RESPOL)
+- Cytat Dawida Szreka wbudowany w S11
+- Oś czasu "dwie niezależne decyzje" jako S14
+- CTA jako 3 pytania otwierające rozmowę
 
 ---
 
-## Sesja 5 — OTWARTA
+## Sesja 5 — ZAMKNIĘTA
+
+### Cel
+Przepisanie otwarcia i całej narracji pod nowe kierunkowe: wzrost B2B+B2C, strach przed destabilizacją ERP jako główny ból, merce jako rozwiązanie tego problemu.
+
+### Kluczowe decyzje narracyjne
+
+**Nowe otwarcie (S1–S3):**
+- S1: "Wiesz, że sprzedaż online — B2B i B2C — może rosnąć szybciej. Od dłuższego czasu wiesz. Co Cię blokuje?" → ERP działa i nikt nie chce go ruszyć
+- S2: Diagnoza — strach przed destabilizacją infrastruktury która działa (nie budżet, nie gotowość)
+- S3: **"Rozwiązaliśmy ten problem."** — bezpośrednie wejście z rozwiązaniem zanim pojawia się mechanizm
+
+**Zmiany framing w całej prezentacji:**
+- "Koszt stania w miejscu" → "możliwość wzrostu zablokowana przez strach"
+- "B2B" → "B2B i B2C" wszędzie tam gdzie to prawda (DARCO, OCHNIK, schemat warstwy)
+- Dylemat (S5) przemianowany na "Dlaczego nie wcześniej" — retrospektywny, nie jako zagrożenie
+- S13 "Automatyzacja" → "Wzrost bez proporcjonalnego wzrostu zespołu"
+- S16 CTA: pytanie "Gdzie chcesz rosnąć?" zamiast "gdzie jest ból"
+
+### Numery slajdów (wersja PDF v3)
+| S | Temat | Dominujący element |
+|---|-------|--------------------|
+| 1 | Hook | pytanie o wzrost + ERP |
+| 2 | Diagnoza strachu | strach przed destabilizacją |
+| 3 | Rozwiązanie | "Rozwiązaliśmy ten problem" |
+| 4 | Jak to działa | schemat 3-warstwowy B2B+B2C |
+| 5 | Dlaczego nie wcześniej | tabela dwóch złych opcji |
+| 6 | Kim jest merce | 4 liczby + logotypy klientów |
+| 7 | 6 metod integracji | tabela + HAYNE anchor |
+| 8 | Case study: HAYNE | 6 tygodni |
+| 9 | Case study: DARCO | +300% B2B + D2C |
+| 10 | Case study: RESPOL | 75 000 SKU · 13 oddziałów |
+| 11 | ERP zostaje + cytat | schemat + Dawid Szrek |
+| 12 | Funkcje B2B i B2C | tabela z przykładami |
+| 13 | Wzrost bez rozrostu | 3 bloki (feedy, autoprovisionig, Arpex) |
+| 14 | Dwie decyzje | oś czasu |
+| 15 | Co zyskujesz | 3 liczby + millennialsi |
+| 16 | CTA | 3 pytania o wzrost + kontakt |
+
+---
+
+## Sesja 6 — OTWARTA
 
 ### Do zrobienia
-- [ ] Weryfikacja cytatów DARCO: Tomasz Domaradzki + Łukasz Duda — wejść na blog /darco-podejscie-user-oriented i wyciągnąć dokładne brzmienie
-- [ ] Rozważyć: dodać OCHNIK +100% jako 4. case study (S10b) lub zostawić go tylko w S6 (lista klientów)
-- [ ] Design brief: przygotować wskazówki kolorystyczne i layoutowe dla każdego slajdu
+- [ ] Weryfikacja cytatów DARCO: Tomasz Domaradzki + Łukasz Duda — wejść na blog /darco-podejscie-user-oriented
+- [ ] Rozważyć: dodać OCHNIK +100% jako 4. case study lub zostawić tylko w S6
+- [ ] Design brief: wskazówki kolorystyczne i layoutowe dla każdego slajdu
 - [ ] Zapytać team merce: czas wdrożenia RESPOL i BIALCON, % zamówień B2B bez udziału handlowca
 
 ### Otwarte pytania
-- DARCO +300% — czy komunikować jako "bez wymiany ERP" czy "zamiast ERP"? Weryfikować przekaz
-- OCHNIK — replatforming z Magento (nie typowe "bez ERP") — czy umieszczać w głównym flow case studies?
-- Czy SARA lub Arpex pasują lepiej do S13 (automatyzacja) niż S12 (funkcje)?
-- Slajd S6 "kim jest merce" — czy lista klientów jako logotypy czy tekst?
+- DARCO +300% — komunikować jako "bez wymiany ERP" czy "zamiast wymiany ERP"?
+- OCHNIK — replatforming z Magento (nie typowe "bez ERP") — czy umieszczać w głównym flow?
+- Czy dodać cytat na S3 "Rozwiązaliśmy ten problem" żeby nie brzmiał zbyt deklaratywnie?
