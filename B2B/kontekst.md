@@ -6,7 +6,8 @@
 - **Temat:** Jak rozwijać sprzedaż online B2B bez ingerencji w ERP
 - **Hook:** "Uniezależnij się od ERP" — ale prawdziwy strach to destabilizacja tego co działa
 - **Odbiorcy:** CEO, Head of Sales, CTO / IT Director firm produkcyjnych i dystrybucyjnych B2B
-- **Format:** Prezentacja wysyłana w cold mailingu — treść opisowa, pokazuje i tłumaczy rozwiązanie, na slajdach mało tekstu, dużo wizualizacji i schematów
+- **Format:** Prezentacja wysyłana w cold mailingu — odbiorca czyta PDF samodzielnie, bez prezentera. Każdy slajd musi być samonośny.
+- **Wersja narracji:** PDF (v2) — 16 slajdów, tekst i liczby widoczne na slajdach
 
 ---
 
@@ -25,7 +26,7 @@ Odkładają przez strach przed destabilizacją działającej infrastruktury IT.
 
 Firmy B2B stoją przed pozornym wyborem:
 
-1. **Wymienić ERP** → projekt 12+ miesięcy, 100–500k PLN, ryzyko operacyjne
+1. **Wymienić ERP** → projekt 12–18 miesięcy, 100–500k PLN, ryzyko operacyjne
 2. **Czekać** → brak kanału online, ręczna obsługa zamówień, blokada wzrostu
 
 **Trzecia droga:** warstwa commerce nad istniejącym ERP — to właśnie robi merce.
@@ -51,7 +52,7 @@ Firmy B2B stoją przed pozornym wyborem:
 - Przeniesienie procesów sprzedażowych z ERP do eCommerce → redukcja licencji ERP per user
 
 ### Oszczędność vs. migracja ERP
-- **Czas:** tygodnie zamiast 12+ miesięcy
+- **Czas:** tygodnie zamiast 12–18 miesięcy
 - **Koszt:** oszczędność 100–500k PLN na samej migracji ERP
 
 ---
@@ -95,14 +96,14 @@ Firmy B2B stoją przed pozornym wyborem:
 ## CASE STUDIES — SZCZEGÓŁY
 
 ### DARCO — B2B + D2C (instalacje grzewcze i wentylacja)
-- **+300% zamówień B2B** po wdrożeniu (migracja z ERP na merce)
+- **+300% zamówień B2B** po wdrożeniu
 - **+25% wzrost** w kolejnym roku (~15 000 zamówień rocznie)
 - **600 aktywnych klientów B2B** na platformie
-- **50 nowych klientów B2B** pozyskanych w ciągu kilku miesięcy od wdrożenia
+- **50 nowych klientów B2B** w ciągu kilku miesięcy od startu
 - Zamówienia dostępne **24/7**, realizacja w **48h**
 - Bonus: uruchomienie kanału D2C — wcześniej niemożliwe bez salonów fizycznych
 - Monitoring trendów konsumenckich bez budowania infrastruktury stacjonarnej
-- Paweł Szewczyk (CMO merce): platforma pozwala znajdować klientów bez targów i śledzić trendy przez D2C
+- Cytaty: Tomasz Domaradzki (CEO) + Łukasz Duda — potwierdzone, dokładne brzmienie: blog /darco-podejscie-user-oriented
 - Źródło: merce.com/blog/cyfryzacja-uwalnia-uspione-moce-firm-b2b + merce.com/blog/darco-podejscie-user-oriented
 
 ### HAYNE — integracja z Vendo ERP (B2B optyka)
@@ -123,10 +124,9 @@ Firmy B2B stoją przed pozornym wyborem:
 - **ERP:** Asseco SAFO, integracja przez Web Service
 - Klienci B2B: deweloperzy, instalatorzy, architekci, instytucje publiczne
 - Wdrożone: panel B2B z widokiem stanów sieciowych (wszystkie oddziały), statusy zamówień, indywidualne cenniki
-- Wyzwanie: brak centralnego magazynu przy 75 tys. SKU
+- Wyzwanie: brak centralnego magazynu przy 75 tys. SKU — rozwiązane przez synchronizację stanów sieciowych
+- Efekty: przyspieszenie logistyki, wzrost satysfakcji klientów B2B
 - Metodyka wymagań: MoSCoW (warsztaty, mapowanie procesów, KPI)
-- Efekty: przyspieszenie logistyki, wzrost satysfakcji klientów
-- Liczby finansowe: brak danych pub.
 
 ### OCHNIK — replatforming + omnichannel (fashion 120+ salonów)
 - **+100% sprzedaży** w roku 1 po replatformingu z Magento
@@ -137,9 +137,10 @@ Firmy B2B stoją przed pozornym wyborem:
 - **-80% TTFB** po wdrożeniu Raccoon Storefront (SSR, lazy loading, MPA/SPA hybrid)
 - PageSpeed: 90+/100 punktów
 - Ship-from-store: 120+ salonów jako huby fulfillment
-- InPost Pay: merce stworzyło plugin jako jedno z pierwszych na rynku — teraz standard wdrożeń; uproszczenie checkout = wzrost konwersji mobilnej
+- InPost Pay: merce stworzył plugin jako jeden z pierwszych na rynku PL — teraz standard wdrożeń; uproszczenie checkout = wzrost konwersji mobilnej
 - Cytat: "Udostępnienie stanów z salonów przyniosło widoczny wzrost sprzedaży online." — Dawid Szrek, Manager e-commerce & IT, OCHNIK
 - SEO realizowane z agencją Altavia Kamikaze + K2
+- ERP w narracji: LSI, integracja przez widoki i adaptery
 
 ### Arpex — B2B (dystrybutor zabawek, b2b.arpex.com.pl)
 - **ERP:** Comarch ERP XL, integracja
@@ -153,7 +154,6 @@ Firmy B2B stoją przed pozornym wyborem:
 - Integracja Mapbox (lokalizacja dystrybutorów/partnerów)
 - Multi-currency B2B
 - Platforma obsługuje zarówno kanał B2B jak i B2C
-- Źródło: merce.com/blog/rosa-plast-usprawnia-cyfrowa-sprzedaz
 
 ### SARA Workwear — B2B + B2C (odzież robocza, ~500 pracowników, od 1992)
 - **ERP:** Streamsoft Prestiż, integracja dwukierunkowa
@@ -161,7 +161,7 @@ Firmy B2B stoją przed pozornym wyborem:
 - Oddzielne domeny B2B i B2C
 - Platforma wielojęzyczna
 - Problem: ERP jednowariantowy → duplikaty w katalogu, przeładowanie wyników
-- Rozwiązanie: grupowanie wg atrybutów, agregacja wyszukiwania, **masowe dodawanie wariantów do koszyka**
+- Rozwiązanie: grupowanie wg atrybutów, **masowe dodawanie wariantów do koszyka**
 - Wyniki: zwiększona liczba produktów w koszyku, poprawa konwersji, spójne UX B2B
 
 ### Grupa Play / 3S Data Center — automatyzacja cloud B2B
@@ -171,7 +171,6 @@ Firmy B2B stoją przed pozornym wyborem:
 - Zero manualnej pracy przy konfiguracji środowisk — API-driven
 - Skrócenie czasu realizacji + eliminacja błędów ręcznych
 - 3S Data Center = Platynowy Partner VEEAM
-- 60% firm CEE planuje wzrost wydatków na chmurę (Forrester 2023)
 
 ### Marketplace — dynamiczne feedy produktowe
 - **2x wyższa konwersja** produktów promo w 2 tygodnie kampanii
@@ -181,7 +180,7 @@ Firmy B2B stoją przed pozornym wyborem:
 ### New Balance Polska — omnichannel
 - Aplikacje mobilne iOS + Android (merceApp)
 - **Spartavity:** program lojalnościowy — punkty online i offline, wymiana na vouchery
-- **Afiliacja:** precyzyjna weryfikacja zamówień, śledzenie kliknięć i konwersji, rozliczanie prowizji w real-time; płatność tylko za skuteczne transakcje; eliminacja fraudu — teraz standardowy moduł merce
+- **Afiliacja:** precyzyjna weryfikacja zamówień, śledzenie kliknięć i konwersji, rozliczanie prowizji w real-time; płatność tylko za skuteczne transakcje; eliminacja fraudu → standardowy moduł merce
 - **Complete the Look:** cross-sell stylizacji — nowe API endpoints, szablony zestawów, direct add-to-cart; wzrost wartości koszyka
 
 ---
@@ -195,9 +194,9 @@ Firmy B2B stoją przed pozornym wyborem:
 > "Udostępnienie stanów z salonów przyniosło widoczny wzrost sprzedaży online."
 > — Dawid Szrek, Manager e-commerce & IT, OCHNIK
 
-> [Tomasz Domaradzki, DARCO — CEO quote potwierdzony, dokładne brzmienie do weryfikacji w blogu /darco-podejscie-user-oriented]
+> [Tomasz Domaradzki, DARCO — CEO quote potwierdzony, dokładne brzmienie: blog /darco-podejscie-user-oriented]
 
-> [Łukasz Duda, DARCO — quote potwierdzony, dokładne brzmienie do weryfikacji]
+> [Łukasz Duda, DARCO — quote potwierdzony, dokładne brzmienie: blog /darco-podejscie-user-oriented]
 
 ---
 
@@ -217,13 +216,13 @@ Firmy B2B stoją przed pozornym wyborem:
 
 1. **DARCO: +300% zamówień B2B** — bez wymiany ERP, 600 aktywnych klientów
 2. **HAYNE: 6 tygodni** — legacy ERP Vendo SOAP, bez wymiany, pełna automatyzacja
-3. **OCHNIK: +100% sprzedaży** rok 1 + SEO TOP3 +151% + InPost Pay
+3. **OCHNIK: +100% sprzedaży** rok 1 + SEO TOP3 +151% + InPost Pay (cytat Dawida Szreka)
 4. **RESPOL: 75 000 SKU, 13 oddziałów** — skala złożoności B2B
-5. **1,2 mld zł** transakcji rocznie — skala zaufania
-6. **Cytat Dawida Szreka** — real person, real quote
+5. **1,2 mld zł** transakcji rocznie — skala zaufania platformy
+6. **Cytat Dawida Szreka** — real person, real quote, na slajdzie
 7. **2x konwersja** marketplace w 2 tygodnie
-8. **SARA: masowe warianty** — UX argument dla B2B produkcji
-9. **Grupa Play: 0 ручной pracy** — cloud B2B autoprovisionig
+8. **Grupa Play:** zero manualnej pracy — cloud B2B autoprovisionig
+9. **82% firm** oczekuje automatyzacji (Forrester) — statystyka otwierająca S3
 
 ---
 
@@ -242,7 +241,8 @@ New Balance Polska, SARA Workwear, W.KRUK, Grupa Play (3S Data Center), HENDI, A
 | % zamówień B2B bez udziału handlowca po wdrożeniu | OMS analytics |
 | ROI z integracji merce vs. własna integracja punktowa | Analiza TCO |
 | Wyniki DARCO rok 3+ | Klient |
-| Dokładne cytaty Tomasz Domaradzki i Łukasz Duda (DARCO) | Blog /darco-podejscie-user-oriented |
+| Dokładne cytaty Tomasz Domaradzki + Łukasz Duda (DARCO) | Blog /darco-podejscie-user-oriented |
+| ERP klienta w case study OCHNIK | Potwierdzić: LSI Software? |
 
 ---
 
