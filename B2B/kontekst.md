@@ -5,7 +5,7 @@
 - **Temat:** Jak rozwijać sprzedaż online B2B bez ingerencji w ERP
 - **Hook:** "Uniezależnij się od ERP" — ale prawdziwy strach to destabilizacja tego co działa
 - **Odbiorcy:** CEO, Head of Sales, CTO / IT Director firm produkcyjnych i dystrybucyjnych B2B
-- **Format:** Prezentacja sprzedażowa / konferencja
+- **Format:** Prezentacja wysyłana w cold mailingu — treść opisowa, pokazuje i tłumaczy rozwiązanie, na slajdach mało tekstu, dużo wizualizacji i schematów
 
 ---
 
