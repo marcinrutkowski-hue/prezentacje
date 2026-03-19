@@ -45,7 +45,7 @@ Research merce.com — zebranie liczb, social proof i case studies do narracji.
 
 **Cytaty klientów (potwierdzone):**
 - "Zyskaliśmy pełne spectrum eCommerce w jednym miejscu." (migracja z Magento)
-- "Platforma jest intuicyjna, klienci samodzielnie skladają zamówienia. Słyszymy, że to NR 1 w branży."
+- "Platforma jest intuicyjna, klienci samodzielnie składają zamówienia. Słyszymy, że to NR 1 w branży."
 - "Udostępnienie stanów z salonów przyniosło widoczny wzrost sprzedaży online." — Dawid Szrek, Manager e-commerce & IT, OCHNIK
 
 **Uwaga metodyczna:**
@@ -56,17 +56,80 @@ Research merce.com — zebranie liczb, social proof i case studies do narracji.
 
 ---
 
-## Sesja 3 — OTWARTA
+## Sesja 3 — ZAMKNIĘTA
+
+### Cel
+Głębszy research — 24 URLe dostarczone przez użytkownika (blogi + realizacje szczegółowe).
+
+### Co zrobiono
+Perplexity search dla wszystkich 24 URLi w 3 batchach. Wyciągnięte dane:
+
+**Nowe dane — DARCO:**
+- **600 aktywnych klientów B2B** na platformie
+- **50 nowych klientów B2B** w ciągu kilku miesięcy od wdrożenia
+- Zamówienia 24/7, realizacja w 48h
+- Cytaty: Tomasz Domaradzki (CEO) + Łukasz Duda — potwierdzone, brzmienie do weryfikacji w /darco-podejscie-user-oriented
+
+**Nowe dane — Arpex:**
+- ERP: Comarch ERP XL z integracją
+- Platforma wielojęzyczna
+- Marketing bez angażowania IT — autonomia departamentu
+- Aktualizacje bez przestojów ERP
+- b2b.arpex.com.pl
+
+**Nowe dane — Rosa Plast:**
+- Automatyczna generacja TDS PDF per produkt
+- Integracja Mapbox (lokalizacja partnerów)
+- Multi-currency B2B
+- Kanały: B2B + B2C
+
+**Nowe dane — SARA Workwear (~500 pracowników):**
+- ERP: Streamsoft Prestiż, integracja dwukierunkowa
+- 3 poziomy cenowe dla grup klientów
+- Oddzielne domeny B2B i B2C
+- Platforma wielojęzyczna
+- Problem ERP jednowariantowy → rozwiązanie: masowe dodawanie wariantów
+
+**Nowe dane — RESPOL:**
+- 30+ lat na rynku (od 1989)
+- Efekty: przyspieszenie logistyki, wzrost satysfakcji klientów
+- Asseco SAFO przez Web Service
+
+**Nowe dane — Grupa Play / 3S Data Center:**
+- Etap 1 (Q2/Q3 2023): Autoprovisionig VEEAM
+- Etap 2 (2024): Virtual Data Center (VMware)
+- Etap 3 (2024): Obszar partnerski (Microsoft 365)
+- Zero manualnej pracy — pełna automatyzacja API
+
+**Nowe dane — OCHNIK InPost Pay:**
+- merce stworzył plugin InPost Pay jako jeden z pierwszych na rynku PL
+- Ochnik = pilot → teraz standard wdrożeń merce
+- Uproszczenie checkout → wzrost konwersji mobilnej
+- Headless Raccoon + InPost Pay = stack merce
+
+**Nowe dane — New Balance:**
+- Complete the Look: cross-sell stylizacji, API endpoints, szablony, direct add-to-cart
+- Afiliacja: performance marketing, płatność za skuteczne transakcje, eliminacja fraudu → teraz standardowy moduł merce
+
+**Nowy cytat z bloga:**
+- Paweł Szewczyk: platforma przenosi procesy z ERP do eCommerce → redukcja licencji ERP per user; internet = znajdowanie klientów bez targów, śledzenie trendów przez D2C
+- Szacunek rynkowy: 20–40% ogólny wzrost sprzedaży B2B po wdrożeniu platformy eCommerce
+
+---
+
+## Sesja 4 — OTWARTA
 
 ### Do zrobienia
 - [ ] Wbudować liczby do narracji — priorytet: S7 (case studies) i S14 (co zyskujesz)
-- [ ] Wybrać 3–4 case studies do S7: DARCO (+300%), HAYNE (6 tyg.), RESPOL (skala), OCHNIK (+100%)
+- [ ] Wybrać 3–4 case studies do S7: DARCO (+300%, 600 klientów), HAYNE (6 tyg.), RESPOL (skala), OCHNIK (+100%)
 - [ ] Dodać statystykę rynkową do S2 lub S3: 82% firm oczekuje automatyzacji B2B
 - [ ] Rozważyć: cytat Dawida Szreka jako osobny slajd lub element S7
-- [ ] Zapytać team merce: czas wdrożenia RESPOL i BIALCON, dane zamówień bez handlowca
+- [ ] Weryfikacja: dokładne cytaty Tomasz Domaradzki + Łukasz Duda z DARCO (blog /darco-podejscie-user-oriented)
+- [ ] Zapytać team merce: czas wdrożenia RESPOL i BIALCON, % zamówień bez handlowca
 
 ### Otwarte pytania
 - DARCO +300% — czy to B2B bez wymiany ERP, czy migracja z ERP? Weryfikować przekaz
 - OCHNIK +100% — to replatforming z Magento (nie typowe "bez ERP") — jak to wpleść?
 - Który case study jest najbliższy profilowi odbiorcy cold mailingu (producent/dystrybutor B2B)?
 - Czy RESPOL (hurtownia HVAC, 75k SKU, 13 oddziałów) nie jest lepszym przykładem niż OCHNIK dla B2B hook?
+- SARA lub Arpex — czy dodać do S7 jako "mniejsze firmy też mogą"?
